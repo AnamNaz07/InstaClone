@@ -18,16 +18,13 @@ const LoginScreen = () => (
         backgroundColor:'white',
         paddingTop: 30,
         paddingHorizontal:12,
-        
-        
+        alignContent:'center',        
     },
     logoContainer:{
         marginTop:60,
         height:70,
         width:70,
-        alignItems:'center',
-        justifyContent:'center',
-
+        alignSelf:'center'
     }
  })
  export default LoginScreen
